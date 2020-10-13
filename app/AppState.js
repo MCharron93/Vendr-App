@@ -8,9 +8,9 @@ class AppState extends EventEmitter {
   /** @type {Value[]} */
   values = []
   inventory = {
-    trailMix: new Purchase("Trail Mix", 3),
-    potatoChip: new Purchase("Chips", 2),
-    fruitSnack: new Purchase("Fruit Snacks", 2.50)
+    trailMix: new Purchase("trail mix", 3),
+    potatoChip: new Purchase("chips", 2),
+    fruitSnack: new Purchase("fruit snacks", 2.50)
   }
 
   /** @type {Wallet} */
