@@ -14,13 +14,14 @@ function _draw() {
 
 export default class ChangeController {
   constructor() {
-    // console.log("Change controller connected!")---NOTE Logged at start up to ensure all pages links
     _draw()
+    // console.log("Change controller connected!")---NOTE Logged at start up to ensure all pages links
+    ProxyState.on('wallet', _draw)
   }
   addMoney() {
     // console.log("money has been added")---NOTE logged to ensure button functionality is working
     changeService.addMoney()
-    _draw()
+    // _draw()
   }
 
 }
