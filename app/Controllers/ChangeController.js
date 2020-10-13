@@ -1,5 +1,4 @@
 import { ProxyState } from "../AppState.js";
-import Wallet from "../Models/Wallet.js";
 import { changeService } from "../Services/ChangeService.js";
 
 
